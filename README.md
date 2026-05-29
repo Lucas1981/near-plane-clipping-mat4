@@ -1,5 +1,7 @@
 # Near plane clipping mat4
 
+<img width="1470" height="717" alt="Screenshot 2026-05-29 at 20 15 05" src="https://github.com/user-attachments/assets/ac08c5c7-fcef-44c5-ad14-82427f3e7a5d" />
+
 Ok, so this is an iteration on the previous near-plane-clipping-manual repository. I now added Mat4 support so that I could see where in the pipeline it exactly makes sense to apply the clipping. Right between applying the projection matrix and then dividing by w, apparently. Ok, that gives me a better understanding.
 
 I understand the whole idea behind the clipping algorithm better too now I think, so I might as well write it down here when it's still fresh. So, what do we do?
