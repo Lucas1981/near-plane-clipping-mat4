@@ -1,0 +1,14 @@
+{
+  "material": { "specular": "#ffffff", "shininess": 64 },
+  "useFaceNormalsForLighting": true,
+  "vertices": [
+    { "x": 1, "y": 0, "z": -1 },
+    { "x": 1, "y": 0, "z": 1 },
+    { "x": -1, "y": 0, "z": 1 },
+    { "x": -1, "y": 0, "z": -1 }
+  ],
+  "polygons": [
+    { "color": "#1a4a8a", "vertexIndices": [3, 2, 0] },
+    { "color": "#ff0000", "vertexIndices": [2, 1, 0] }
+  ]
+}
